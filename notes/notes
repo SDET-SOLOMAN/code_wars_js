@@ -1,0 +1,44 @@
+let s = "Knowledge, of built-in JavaScript methods, speeds up a tester's work.";
+let newS;
+
+console.log(s);
+// Output: "Knowledge, of built-in JavaScript methods, speeds up a tester's work."
+
+newS = s.length;
+// Returns the length of the string
+// Output: 69
+
+newS = s.charAt(0);
+// Returns the character at index 0
+// Output: "K"
+
+newS = s[0];
+// Another way to get the character at index 0
+// Output: "K"
+
+newS = s.charCodeAt(0);
+// Returns the Unicode of the character at index 0
+// Output: 75
+
+newS = s.at(0);
+// Returns the character at index 0 (ES2022 feature)
+// Output: "K"
+
+newS = s.charAt(s.length - 3);
+// Returns the third character from the end
+// Output: "o"
+
+newS = s.substring(2, 5);
+// Extracts characters from index 2 to 4
+// Output: "owl"
+
+newS = s.substr(1, 3);
+// Extracts 3 characters starting from index 1 (Deprecated)
+// Output: "now"
+
+newS = s.slice(1, 4);
+// Extracts characters from index 1 to 3
+// Output: "now"
+
+newS = s.slice(-3);
+// Extracts the last 3 c
