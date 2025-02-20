@@ -11,3 +11,13 @@ function grow(x) {
 
 // using reduce method
 let grow2 = (nums) => nums.reduce((product, num) => product * num, 1);
+
+function grow3(x) {
+  let number = 1;
+
+  for (let num of x) {
+    number *= num;
+  }
+
+  return number;
+}
