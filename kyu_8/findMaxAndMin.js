@@ -50,3 +50,15 @@ let max2 = function (list) {
   list.sort((a, b) => b - a);
   return list[0];
 };
+
+let sorted = (x) => {
+  return [...x].sort((a, b) => a - b);
+};
+
+let min3 = (x) => {
+  return sorted(x)[0];
+};
+
+let max3 = (x) => {
+  return sorted(x)[x.length - 1];
+};
