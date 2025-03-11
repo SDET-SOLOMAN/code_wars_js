@@ -42,3 +42,66 @@ newS = s.slice(1, 4);
 
 newS = s.slice(-3);
 // Extracts the last 3 c
+// Sorting strings:
+//   let c = [a, b];
+//   c.sort((x, y) => x.length - y.length);
+
+
+// const name = "James";
+// switch (name){
+//     case "Mark":
+//         console.log("Hi");
+//     case "James":
+//         console.log("Bye");
+//         break;
+//     default:
+//         console.log("Yes");
+// }
+
+
+// break, continue
+// do {} while()
+// try, catch, finally
+
+// Math
+// Math.abs Math.floor Math.ceil Math.random, Math.min Math.max
+
+// General methods
+// toString() -> int to str
+// isNaN <- if its not int isNan(23)
+// isInteger -> check if its int
+// toFixed -> round (35).toFixed(2) - > 35.00
+// parseInt <- str to int
+
+
+//map, reduce, filter
+// divisibleBy = (n, f) => n.filter(num => num % f === 0)
+
+
+// Set
+// set-> has()
+// "#".repeat(cc.slice(0, -4).length)
+
+
+// Lists/array
+// push -> end 
+// unshift -> beginning 
+// pop last
+// shift -> first pop
+// delete arr[2] index delete makes empty but doesnt shortens arr
+// .at -> we can use negative numbers for the ind from the end
+// toString() -> arr to str
+// .split() <- need to input space by default
+// .join() <- arr to string
+// JSON.stringify
+//Sorting Arrs
+//numbers.sort((a, b) => a - b); // Ascending
+//numbers.sort((a, b) => b - a); // Descending
+//   let c = [a, b];
+//   c.sort((x, y) => x.length - y.length);
+
+
+
+// dictionary
+// hasOwnProperty <- if its in dictionary
+// k in dict also works
