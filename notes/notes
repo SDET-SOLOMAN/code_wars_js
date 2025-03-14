@@ -67,7 +67,7 @@ newS = s.slice(-3);
 // Math.abs Math.floor Math.ceil Math.random, Math.min Math.max
 
 // General methods
-// toString() -> int to str
+// num.toString() -> int to str
 // isNaN <- if its not int isNan(23)
 // isInteger -> check if its int
 // toFixed -> round (35).toFixed(2) - > 35.00
@@ -76,6 +76,7 @@ newS = s.slice(-3);
 
 //map, reduce, filter
 // divisibleBy = (n, f) => n.filter(num => num % f === 0)
+// name.split(' ').map(i => i[0].toUpperCase()).join('.')
 
 
 // Set
@@ -93,7 +94,13 @@ newS = s.slice(-3);
 // toString() -> arr to str
 // .split() <- need to input space by default
 // .join() <- arr to string
-// JSON.stringify
+// JSON.stringify <- to compare arrs
+
+// arr1.concat(arr2) <- extend arr
+// arr = [...ar1, ...ar2] <- extend too
+// arr = [...ar, ...(isSummer? [1,2,3]:[])]
+// str to arr-> [...str]
+
 //Sorting Arrs
 //numbers.sort((a, b) => a - b); // Ascending
 //numbers.sort((a, b) => b - a); // Descending
