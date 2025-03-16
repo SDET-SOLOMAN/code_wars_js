@@ -37,6 +37,7 @@ newS = s.substr(1, 3);
 // Output: "now"
 
 newS = s.slice(1, 4);
+// can also use negative num
 // Extracts characters from index 1 to 3
 // Output: "now"
 
