@@ -86,6 +86,7 @@ newS = s.slice(-3);
 
 
 // Lists/array
+// concat() <- expand list
 // push -> end 
 // unshift -> beginning 
 // pop last
