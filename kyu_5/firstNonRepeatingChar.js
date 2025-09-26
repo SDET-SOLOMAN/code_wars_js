@@ -21,6 +21,14 @@ function firstNonRepeatingLetter(s) {
     let lower = s.toLowerCase();
     
     for (let i = 0; i < lower.length; i++) {
+
+      for (let i = 0; i < lower.length; i++) {
+        if (
+          !lower.slice(i + 1).includes(lower[i]) &&
+          !lower.slice(0, i).includes(lower[i])
+        ) {
+          return s[i];
+        }
       if (
         !lower.slice(i + 1).includes(lower[i]) &&
         !lower.slice(0, i).includes(lower[i])
@@ -28,7 +36,10 @@ function firstNonRepeatingLetter(s) {
         return s[i];
       }
     }
-  
-    return "";
+
+  func a(a, b){
+    let a = 
+  }
+n 
   }
   

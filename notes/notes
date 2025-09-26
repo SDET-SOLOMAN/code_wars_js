@@ -78,6 +78,7 @@ newS = s.slice(-3);
 //map, reduce, filter
 // divisibleBy = (n, f) => n.filter(num => num % f === 0)
 // name.split(' ').map(i => i[0].toUpperCase()).join('.')
+// arr.reduce((acc, cur) => acc + cur, 0)
 
 
 // Set
@@ -97,6 +98,20 @@ newS = s.slice(-3);
 // .split() <- need to input space by default
 // .join() <- arr to string
 // JSON.stringify <- to compare arrs
+// includes() <- if its in arr
+// indexOf() <- index of item in arr -1 if not found
+// find() <- returns the first element that satisfies the provided testing function.
+// findIndex() <- returns the index of the first element that satisfies the provided testing function.
+// filter() <- creates a new array with all elements that pass the test implemented by the provided function.
+// slice() <- returns a shallow copy of a portion of an array into a new array object
+// splice() <- changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+// reverse() <- reverses the order of the elements of an array in place
+// sort() <- sorts the elements of an array in place and returns the sorted array.
+// fill() <- fills all the elements of an array from a start index to an end index
+// every() <- tests whether all elements in the array pass the test implemented by the provided function
+// some() <- tests whether at least one element in the array passes the test implemented by the provided function
+// reduce() <- executes a reducer function (that you provide) on each element of the array, resulting in a single output value
+// map() <- creates a new array populated with the results of calling a provided function on every element in the calling array
 
 // arr1.concat(arr2) <- extend arr
 // arr = [...ar1, ...ar2] <- extend too
@@ -108,6 +123,13 @@ newS = s.slice(-3);
 //numbers.sort((a, b) => b - a); // Descending
 //   let c = [a, b];
 //   c.sort((x, y) => x.length - y.length);
+
+// for (let value of array) <- iterate values
+// for (let key in object) <- iterate keys 
+
+// array.forEach(value => {
+//     num += value;
+//   });
 
 
 

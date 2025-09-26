@@ -10,13 +10,27 @@
 // ('/', 49, 7) --> 7
 
 function basicOp(o, v1, v2) {
-    let d = {
-      '+': v1 + v2,
-      '-': v1 - v2,
-      '*': v1 * v2,
-      '/': v1 / v2
-    };
-    
-    return d[o];
+  let d = {
+    "+": v1 + v2,
+    "-": v1 - v2,
+    "*": v1 * v2,
+    "/": v1 / v2,
+  };
+
+  return d[o];
+}
+
+function basicOp2(o, v1, v2) {
+  switch (o) {
+    case "+":
+      return v1 + v2;
+    case "-":
+      return v1 - v2;
+    case "*":
+      return v1 * v2;
+    case "/":
+      return v1 / v2;
+    case _:
+      return "lol";
   }
-  
+}

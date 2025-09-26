@@ -14,3 +14,10 @@ function findAverage(array) {
 function find_average2(arr) {
   return arr.length > 0 ? arr.reduce((a, b) => a + b) / arr.length : 0;
 }
+
+function findAverage3(array) {
+  if (array.length === 0) return 0;
+  let num = 0;
+  array.forEach((x) => (num += x));
+  return num / array.length;
+}

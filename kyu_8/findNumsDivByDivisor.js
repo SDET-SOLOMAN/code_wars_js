@@ -9,15 +9,14 @@ Example(Input1, Input2 --> Output)
 [1, 2, 3, 4, 5, 6], 2 --> [2, 4, 6]
 */
 
-function divisibleBy(n, d){
-  
-    let newA = [];
-    for(let i in n){
-      if(n[i] % d === 0){
-        newA.push(n[i]);
-      }
+function divisibleBy(n, d) {
+  let newA = [];
+  for (let i in n) {
+    if (n[i] % d === 0) {
+      newA.push(n[i]);
     }
-    return newA;
+  }
+  return newA;
 }
 
-divisibleBy2 = (n, f) => n.filter(num => num % f === 0)
+let divisibleBy2 = (n, f) => n.filter((num) => num % f === 0);

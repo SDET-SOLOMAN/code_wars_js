@@ -6,18 +6,25 @@
 // If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
 
 function arrayDiff(a, b) {
-    return a.filter(x => !b.includes(x));
+  return a.filter((x) => !b.includes(x));
 }
 
-
 function arrayDiff2(a, b) {
-  
-    let newA = [];
-    for(let i of a){
-      if(b.indexOf(i) === -1){
-        newA.push(i);
-      }
+  let newA = [];
+  for (let i of a) {
+    if (b.indexOf(i) === -1) {
+      newA.push(i);
     }
-    return newA;
-    
   }
+  return newA;
+}
+
+function arrayDiff3(a, b) {
+  let newA = [];
+  for (let num of a) {
+    if (!b.includes(num)) {
+      newA.push(num);
+    }
+  }
+  return newA;
+}

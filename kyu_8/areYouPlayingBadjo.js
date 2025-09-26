@@ -16,3 +16,8 @@ function areYouPlayingBanjo(name) {
     ? `${name} plays banjo`
     : `${name} does not play banjo`;
 }
+
+function areYouPlayingBanjo2(n) {
+  const x = ["R", "r"];
+  return x.includes(n[0]) ? `${n} plays banjo` : `${n} does not play banjo`;
+}
