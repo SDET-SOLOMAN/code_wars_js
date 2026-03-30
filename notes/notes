@@ -99,6 +99,7 @@ newS = s.slice(-3);
 // .join() <- arr to string
 // JSON.stringify <- to compare arrs
 // includes() <- if its in arr
+// !"djvnnrjvr".includes <- not in
 // indexOf() <- index of item in arr -1 if not found
 // find() <- returns the first element that satisfies the provided testing function.
 // findIndex() <- returns the index of the first element that satisfies the provided testing function.
